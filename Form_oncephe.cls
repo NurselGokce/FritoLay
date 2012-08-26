@@ -195,7 +195,7 @@ On Error GoTo Err_Image428_Click
     Dim stDocName As String
     Dim stLinkCriteria As String
 
-    stDocName = "Ýs Güvenliði_hakkinda"
+    stDocName = "ï¿½s Gï¿½venliï¿½i_hakkinda"
     DoCmd.OpenForm stDocName, , , stLinkCriteria
 
 Exit_Image428_Click:
@@ -318,12 +318,6 @@ Err_OLEUnbound424_Click:
     Resume Exit_OLEUnbound424_Click
 End Sub
 
-
-Private Sub Option223_KeyPress(KeyAscii As Integer)
-TextBox Text464 = "4"
-
-
-End Sub
 
 Private Sub Option223_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
 isbigisimukemmel.Visible = True
