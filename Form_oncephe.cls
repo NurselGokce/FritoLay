@@ -195,7 +195,7 @@ On Error GoTo Err_Image428_Click
     Dim stDocName As String
     Dim stLinkCriteria As String
 
-    stDocName = "ï¿½s Gï¿½venliï¿½i_hakkinda"
+    stDocName = "Ýs Güvenliði_hakkinda"
     DoCmd.OpenForm stDocName, , , stLinkCriteria
 
 Exit_Image428_Click:
@@ -885,13 +885,26 @@ takimkotu.Visible = False
 disiplinkotu.Visible = False
 End Sub
 
+Private Sub Option511_Click()
+isbigisimukemmel.Visible = False
+urunguvenligimukemmel.Visible = False
+isguvenlilgimukemmel.Visible = True
+takimmukkemmel.Visible = False
+disiplinmukkemmel.Visible = False
+isbigisikotu.Visible = True
+urunguvenligikotu.Visible = False
+isguvenlilgikotu.Visible = True
+takimkotu.Visible = False
+disiplinkotu.Visible = False
+End Sub
+
 Private Sub Option513_MouseUp(Button As Integer, Shift As Integer, X As Single, Y As Single)
 isbigisimukemmel.Visible = False
 urunguvenligimukemmel.Visible = False
 isguvenlilgimukemmel.Visible = False
 takimmukkemmel.Visible = False
 disiplinmukkemmel.Visible = False
-isbigisikotu.Visible = False
+isbigisikotu.Visible = True
 urunguvenligikotu.Visible = False
 isguvenlilgikotu.Visible = True
 takimkotu.Visible = False
